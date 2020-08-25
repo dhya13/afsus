@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: Mysql
+    url: jdbc:mysql://localhost:3306/sakila?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+    username: root
+    password: dhya
+  spring:
+    profiles:
+      active: dev
+
+dhya:
+  database: Mysql-local
+  platform: Mysql
+  url : jdbc:mysql://localhost:3306/sakila?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+  name: root
+  password: dhya
