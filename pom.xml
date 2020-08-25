@@ -14,8 +14,7 @@
 	<packaging>war</packaging>
 	<name>afsus</name>
 	<description>Demo project for Spring Boot</description>
-
-
+	
 
 	<dependencies>
 		<dependency>
