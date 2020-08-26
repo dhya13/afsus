@@ -11,10 +11,10 @@
 	<groupId>dhya.faza</groupId>
 	<artifactId>afsus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>afsus</name>
 	<description>Demo project for Spring Boot</description>
-	
+
 
 	<dependencies>
 		<dependency>
